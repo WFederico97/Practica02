@@ -11,6 +11,7 @@ La solución está organizada de la siguiente manera:
 - **Repositories**: Contiene interfaces y sus implementaciones para el manejo de la lógica de acceso a datos.
 - **Controllers**: Contiene los controladores API para manejar las solicitudes HTTP.
 
+```
 Practica02/
 ├── .gitattributes
 ├── .gitignore
@@ -31,3 +32,5 @@ Practica02/
 │   │   ├── AplicacionRepository.cs
 │   ├── Interfaces/
 │   │   ├── IAplicacion.cs
+
+```
