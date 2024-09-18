@@ -1,4 +1,4 @@
-﻿using Practica02.DTOs;
+﻿using Practica02.DTOs.Articulo;
 using Practica02.Models;
 using Practica02.Repositories.Interfaces;
 using System.Data;
@@ -6,7 +6,7 @@ using System.Data.SqlClient;
 
 namespace Practica02.Repositories.Implementations
 {
-    public class AplicacionRepository : IAplicacion
+    public class ArticuloRepository : IArticuloAplicacion
     {
         const string CNN_STRING = "Server=FEDE_NOTE; Database= entrega_01; Integrated Security=True;";
         public List<Articulo> articulos = new List<Articulo>();
