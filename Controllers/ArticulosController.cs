@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Practica02.DTOs;
+using Practica02.DTOs.Articulo;
 using Practica02.Models;
 using Practica02.Repositories.Implementations;
 using Practica02.Repositories.Interfaces;
@@ -11,11 +11,11 @@ namespace Practica02.Controllers
     [ApiController]
     public class ArticulosController : ControllerBase
     {
-        private IAplicacion articuloRepository;
+        private IArticuloAplicacion articuloRepository;
 
         public ArticulosController()
         {
-            articuloRepository = new AplicacionRepository();
+            articuloRepository = new ArticuloRepository();
         }
         [HttpGet]
         public IActionResult GetAll()
