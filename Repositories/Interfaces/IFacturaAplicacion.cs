@@ -1,5 +1,4 @@
 ﻿using Practica02.DTOs.Factura;
-using Practica02.Models;
 
 namespace Practica02.Repositories.Interfaces
 {

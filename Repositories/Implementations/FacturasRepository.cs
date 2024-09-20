@@ -1,5 +1,4 @@
 ﻿using Practica02.DTOs.Factura;
-using Practica02.Models;
 using Practica02.Repositories.Interfaces;
 using System.Data.SqlClient;
 using System.Data;

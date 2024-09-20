@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Practica02.DTOs.Factura;
-using Practica02.Models;
 using Practica02.Repositories.Implementations;
 using Practica02.Repositories.Interfaces;
 

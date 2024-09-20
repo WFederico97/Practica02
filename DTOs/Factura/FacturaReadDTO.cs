@@ -1,7 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.Security.Principal;
-
-namespace Practica02.DTOs.Factura
+﻿namespace Practica02.DTOs.Factura
 {
     public class FacturaReadDTO
     {
